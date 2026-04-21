@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>착(CHAK) — 법적 문서</title>
+  <style>
+    :root {
+      --brand: #FFA142;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #eee;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", sans-serif;
+      background: #fafafa;
+      color: var(--text);
+      margin: 0;
+      padding: 48px 24px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 15px;
+      margin: 0 0 40px;
+    }
+    .links {
+      display: grid;
+      gap: 12px;
+    }
+    a.card {
+      display: block;
+      padding: 20px 24px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.15s ease;
+    }
+    a.card:hover {
+      border-color: var(--brand);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+    .card-desc {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer {
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>착(CHAK)</h1>
+    <p class="tagline">고민될 땐, 착.</p>
+
+    <div class="links">
+      <a class="card" href="./privacy.html">
+        <div class="card-title">🔒 개인정보 처리방침</div>
+        <div class="card-desc">서비스가 수집·이용하는 개인정보에 관한 안내</div>
+      </a>
+      <a class="card" href="./terms.html">
+        <div class="card-title">📜 이용약관</div>
+        <div class="card-desc">서비스 이용에 관한 권리와 의무</div>
+      </a>
+    </div>
+
+    <footer>
+      문의: for.ps.project@gmail.com
+    </footer>
+  </div>
+</body>
+</html>
